@@ -1,0 +1,54 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Android build artifacts
+android/app/build/
+android/.gradle/
+android/build/
+android/local.properties
+
+# iOS build artifacts
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+*.xcuserstate
+
+# Build artifacts
+build/
+dist/
+
+# Metro
+.metro-health-check*
+
+# Buck
+.buckd/
+buck-out/
+*.keystore
+!debug.keystore
+
+# Expo (if used)
+.expo/
+.expo-shared/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Temporary files
+*.log
